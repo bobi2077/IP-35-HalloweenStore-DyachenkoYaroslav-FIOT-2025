@@ -16,10 +16,10 @@ function showDetails3() {
 function Task1() {
     var outputDiv = document.getElementById("output");
     outputDiv.innerHTML = `
-            <img src="" alt="Placeholder Image" width="700">
-            <img src="" alt="Placeholder Image" width="700">
-            <img src="" alt="Placeholder Image" width="700">
-            <img src="" alt="Placeholder Image" width="700">`
+            <img src="./pics/w1.jpg" alt="Placeholder Image" width="700">
+            <img src="./pics/w2.jpg" alt="Placeholder Image" width="700">
+            <img src="./pics/c1.jpg" alt="Placeholder Image" width="700">
+            <img src="./pics/c2.jpg" alt="Placeholder Image" width="700">`
         ;
     }
     function showFixedTable() {
@@ -55,7 +55,7 @@ function Task1() {
     function showConclusion3() {
                             var outputDiv = document.getElementById("output");
                             var conclusion = `
-                                <p><strong>Висновок:</strong> Під час виконання ЛР №3 я придбаd практичні навички роботи  верстки сторінок засобами CSS, верстки на основі плаваючих елементів, з’ясувала переваги та недоліки типів макетів веб-сторінок, придбала практичні навички роботи  верстки сторінок засобами CSS та FLEXBOX.    </p>`
+                                <p><strong>Висновок:</strong> Під час виконання ЛР №3 я придбав практичні навички роботи  верстки сторінок засобами CSS, верстки на основі плаваючих елементів, з’ясувала переваги та недоліки типів макетів веб-сторінок, придбала практичні навички роботи  верстки сторінок засобами CSS та FLEXBOX.    </p>`
                             ;
                             outputDiv.innerHTML = conclusion;
     }             
