@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Discounts</title>
+</head>
+<body>
+
+<h1>Medicines with Discounts</h1>
+
+<script>
+    const medicines = [
+        { name: "Noshpa", price: 170 },
+        { name: "Analgin", price: 55 },
+        { name: "Quanil", price: 310 },
+        { name: "Alphacholine", price: 390 },
+    ];
+
+    const applyDiscount = (items) => {
+        return items.map((item, index) => {
+            const discountedPrice = item.price > 300 ? item.price * 0.7 : item.price;
+            return { id: index + 1, name: item.name, price: discountedPrice.toFixed(2) };
+        });
+    };
+
+    const discountedMedicines = applyDiscount(medicines);
+    console.log(discountedMedicines);
+</script>
+
+</body>
+</html>
